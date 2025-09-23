@@ -20,7 +20,6 @@ type MainPage struct {
 <meta property="og:description" content="Last seen at: {%s p.LastSeen %}.
 This embed was generated at {%s p.CurrentTime %}.
 Due to caching, you will have to check the website if the embed generation time is old."/>
-<meta name="theme-color" content="#6495ED">
 <script>
     window.onload = function () {
         setInterval(updateInfo, 1000)
