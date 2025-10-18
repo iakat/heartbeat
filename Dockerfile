@@ -1,4 +1,4 @@
-FROM golang:1.20.14
+FROM golang:1.24
 ARG COMMIT="latest"
 
 RUN mkdir -p /heartbeat/config
